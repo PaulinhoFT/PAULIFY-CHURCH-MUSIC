@@ -5,8 +5,6 @@ import './Home.css';
 const Home = ({ songs, onPlay, artists, onSelectArtist, onViewChange }) => {
   const [heroIndex, setHeroIndex] = useState(0);
   const [featuredSongs, setFeaturedSongs] = useState([]);
-  const [recommendedSongs, setRecommendedSongs] = useState([]);
-  const [popularSongs, setPopularSongs] = useState([]);
   const [randomArtists, setRandomArtists] = useState([]);
 
   useEffect(() => {
@@ -14,8 +12,6 @@ const Home = ({ songs, onPlay, artists, onSelectArtist, onViewChange }) => {
       // Create random lists only once when songs load
       const shuffled = [...songs].sort(() => 0.5 - Math.random());
       setFeaturedSongs(shuffled.slice(0, 5));
-      setRecommendedSongs([...songs].sort(() => 0.5 - Math.random()).slice(0, 6));
-      setPopularSongs([...songs].sort(() => 0.5 - Math.random()).slice(0, 6));
     }
     if (artists && artists.length > 0) {
       const filtered = artists.filter(a => a !== 'Todos');
@@ -82,7 +78,7 @@ const Home = ({ songs, onPlay, artists, onSelectArtist, onViewChange }) => {
       )}
 
       {/* CANTORES */}
-      <section className="home-section">
+      <section className="home-section" style={{ marginBottom: '60px' }}>
         <h2 className="section-title">Cantores</h2>
         <div className="carousel">
           {randomArtists.map((artist, idx) => {
@@ -100,50 +96,8 @@ const Home = ({ songs, onPlay, artists, onSelectArtist, onViewChange }) => {
         </div>
       </section>
 
-      {/* RECOMENDADOS */}
-      <section className="home-section">
-        <h2 className="section-title">Recomendados para você</h2>
-        <div className="carousel">
-          {recommendedSongs.map(song => (
-            <div className="song-card-vertical" key={song.id} onClick={() => handlePlayFromHome(song)}>
-              <div className="song-cover-container">
-                <img src={song.coverUrl} alt={song.title} className="song-cover" />
-                <div className="play-button-overlay">
-                  <Play size={24} fill="black" />
-                </div>
-              </div>
-              <div className="song-info">
-                <h4 className="song-title truncate">{song.title}</h4>
-                <p className="song-artist truncate">{song.artist}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* MAIS TOCADAS */}
-      <section className="home-section" style={{ marginBottom: '60px' }}>
-        <h2 className="section-title">Mais Tocadas</h2>
-        <div className="carousel">
-          {popularSongs.map(song => (
-            <div className="song-card-vertical" key={song.id} onClick={() => handlePlayFromHome(song)}>
-              <div className="song-cover-container">
-                <img src={song.coverUrl} alt={song.title} className="song-cover" />
-                <div className="play-button-overlay">
-                  <Play size={24} fill="black" />
-                </div>
-              </div>
-              <div className="song-info">
-                <h4 className="song-title truncate">{song.title}</h4>
-                <p className="song-artist truncate">{song.artist}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
     </div>
   );
 };
 
-export default Home;
+export default Home;;

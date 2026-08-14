@@ -62,8 +62,10 @@ function App() {
       />
       <main className="main-content">
         <header className="main-header">
-          <div>
-            <h1>{currentView === 'home' ? 'Momentos de Adoração' : 'Sua Playlist'}</h1>
+          <div style={{ minWidth: 0 }}>
+            <h1 style={{ whiteSpace: 'nowrap', fontSize: 'clamp(1rem, 4vw, 2rem)', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+              {currentView === 'home' ? 'Bem vindo ao Paulify - Church Music !' : 'Sua Playlist'}
+            </h1>
             <p className="text-subdued">
               {currentView === 'playlist' ? `${filteredSongs.length} músicas disponíveis.` : 'Os melhores louvores para abençoar o seu dia.'}
             </p>
