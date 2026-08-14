@@ -208,5 +208,61 @@
         "artist": "Colo de Deus",
         "audioUrl": "/musica/Cheiro de Rosas - Colo de Deus.mp4",
         "coverUrl": "/Capa da musica/Cheiro de Rosas - Colo de Deus.webp"
+    },
+    {
+        "id": 46,
+        "title": "Aparecida",
+        "artist": "Colo de Deus",
+        "audioUrl": "/musica/Aparecida - Colo de Deus.mp3",
+        "coverUrl": "/Capa da musica/Aparecida - Colo de Deus.webp"
+    },
+    {
+        "id": 47,
+        "title": "Como nao me apaixonar",
+        "artist": "Colo de Deus",
+        "audioUrl": "/musica/Como nao me apaixonar - Colo de Deus.mp3",
+        "coverUrl": "/Capa da musica/Como nao me apaixonar - Colo de Deus.webp"
+    },
+    {
+        "id": 48,
+        "title": "Dias Dificeis",
+        "artist": "Frei Gilson",
+        "audioUrl": "/musica/Dias Dificeis - Frei Gilson.mp3",
+        "coverUrl": "/Capa da musica/Dias Dificeis - Frei Gilson.webp"
+    },
+    {
+        "id": 49,
+        "title": "Eis me aqui",
+        "artist": "Colo de Deus",
+        "audioUrl": "/musica/Eis me aqui - Colo de Deus.mp3",
+        "coverUrl": "/Capa da musica/Eis me aqui - Colo de Deus.webp"
+    },
+    {
+        "id": 50,
+        "title": "Fogo Santo",
+        "artist": "Colo de Deus",
+        "audioUrl": "/musica/Fogo Santo - Colo de Deus.mp3",
+        "coverUrl": "/Capa da musica/Fogo Santo - Colo de Deus.webp"
+    },
+    {
+        "id": 51,
+        "title": "Jardim",
+        "artist": "Fraternidade Sao Joao Paulo II",
+        "audioUrl": "/musica/Jardim - Fraternidade Sao Joao Paulo II.mp3",
+        "coverUrl": "/Capa da musica/Jardim - Fraternidade Sao Joao Paulo II.webp"
+    },
+    {
+        "id": 52,
+        "title": "Perfume",
+        "artist": "Fraternidade Sao Joao Paulo II",
+        "audioUrl": "/musica/Perfume - Fraternidade Sao Joao Paulo II.mp3",
+        "coverUrl": "/Capa da musica/Perfume - Fraternidade Sao Joao Paulo II.webp"
+    },
+    {
+        "id": 53,
+        "title": "Terra Seca",
+        "artist": "Fraternidade Sao Joao Paulo II",
+        "audioUrl": "/musica/Terra Seca - Fraternidade Sao Joao Paulo II.mp3",
+        "coverUrl": "/Capa da musica/Terra Seca - Fraternidade Sao Joao Paulo II.webp"
     }
 ]
