@@ -60,7 +60,7 @@ function App() {
         currentView={currentView}
         onViewChange={setCurrentView}
       />
-      <main className="main-content">
+      <main className="main-content" style={{ overflowY: currentView === 'home' ? 'hidden' : 'auto' }}>
         <header className="main-header">
           <div style={{ minWidth: 0 }}>
             <h1 style={{ margin: 0, marginBottom: '4px', whiteSpace: 'nowrap', fontSize: 'clamp(1rem, 4vw, 2rem)', overflow: 'hidden', textOverflow: 'ellipsis' }}>
