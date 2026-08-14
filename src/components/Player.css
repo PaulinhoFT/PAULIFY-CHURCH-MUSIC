@@ -281,3 +281,58 @@
   gap: 12px;
   width: 60%;
 }
+
+@media (max-width: 768px) {
+  .player-container-compact {
+    bottom: 80px !important;
+    width: 90% !important;
+    height: 64px !important;
+    padding: 0 16px !important;
+  }
+
+  .player-left {
+    width: auto !important;
+    flex: 1 !important;
+    margin-right: 8px !important;
+  }
+
+  .player-right {
+    display: none !important;
+  }
+
+  .player-progress-container {
+    display: none !important;
+  }
+
+  .player-controls {
+    margin-bottom: 0 !important;
+    gap: 16px !important;
+  }
+
+  .play-pause-btn {
+    width: 36px !important;
+    height: 36px !important;
+  }
+
+  .expanded-content {
+    width: 95% !important;
+  }
+
+  .expanded-cover {
+    margin-bottom: 24px !important;
+  }
+
+  .expanded-controls {
+    gap: 24px !important;
+    margin-bottom: 32px !important;
+  }
+
+  .expanded-play {
+    width: 64px !important;
+    height: 64px !important;
+  }
+
+  .expanded-volume-control {
+    width: 90% !important;
+  }
+}
