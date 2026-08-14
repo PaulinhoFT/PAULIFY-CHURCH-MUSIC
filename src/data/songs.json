@@ -180,5 +180,26 @@
         "artist": "Morada",
         "audioUrl": "/musica/É TUDO SOBRE VOCÊ ｜ MORADA (CLIPE OFICIAL) - MORADA.mp3",
         "coverUrl": "/Capa da musica/É TUDO SOBRE VOCÊ ｜ MORADA (CLIPE OFICIAL) - MORADA.webp"
+    },
+    {
+        "id": 41,
+        "title": "Deixa Deus sonhar em ti",
+        "artist": "Frei Gilson",
+        "audioUrl": "/musica/Deixa Deus sonhar em ti - Frei Gilson.m4a",
+        "coverUrl": "/Capa da musica/Deixa Deus sonhar em ti - Frei Gilson.webp"
+    },
+    {
+        "id": 42,
+        "title": "Acalma minha tempestade",
+        "artist": "Frei Gilson",
+        "audioUrl": "/musica/Acalma minha tempestade - Frei Gilson.m4a",
+        "coverUrl": "/Capa da musica/Acalma minha tempestade - Frei Gilson.webp"
+    },
+    {
+        "id": 43,
+        "title": "Por que choras",
+        "artist": "Frei Gilson",
+        "audioUrl": "/musica/Por que choras - Frei Gilson.mp4",
+        "coverUrl": "/Capa da musica/Por que choras - Frei Gilson.webp"
     }
 ]
