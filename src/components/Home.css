@@ -196,13 +196,16 @@
 
 /* VERTICAL SONG CARDS (Already styled in SongList.css, but we'll reuse the classes) */
 .song-card-vertical {
-  min-width: 180px;
+  width: 140px;
+  flex: 0 0 auto;
   background-color: var(--player-bg);
   padding: 16px;
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   scroll-snap-align: start;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .song-card-vertical:hover {

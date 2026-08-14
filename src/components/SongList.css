@@ -14,6 +14,8 @@
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .song-card:hover {
@@ -77,6 +79,8 @@
 .song-info {
   display: flex;
   flex-direction: column;
+  min-width: 0; /* Critical for truncate to work inside flexbox */
+  overflow: hidden;
 }
 
 .song-title {
