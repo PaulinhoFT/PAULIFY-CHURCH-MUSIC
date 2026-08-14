@@ -213,3 +213,13 @@
 }
 
 /* We reuse .song-cover-container, .song-cover, .play-button-overlay, .song-info, .song-title, .song-artist from SongList.css */
+
+@media (max-width: 768px) {
+  .hero-banner {
+    height: 220px;
+    padding: 16px;
+  }
+  .hero-title {
+    font-size: 2rem;
+  }
+}
