@@ -63,10 +63,10 @@ function App() {
       <main className="main-content">
         <header className="main-header">
           <div style={{ minWidth: 0 }}>
-            <h1 style={{ whiteSpace: 'nowrap', fontSize: 'clamp(1rem, 4vw, 2rem)', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+            <h1 style={{ margin: 0, marginBottom: '4px', whiteSpace: 'nowrap', fontSize: 'clamp(1rem, 4vw, 2rem)', overflow: 'hidden', textOverflow: 'ellipsis' }}>
               {currentView === 'home' ? 'Bem vindo ao Paulify - Church Music !' : 'Sua Playlist'}
             </h1>
-            <p className="text-subdued">
+            <p className="text-subdued" style={{ margin: 0 }}>
               {currentView === 'playlist' ? `${filteredSongs.length} músicas disponíveis.` : 'Os melhores louvores para abençoar o seu dia.'}
             </p>
           </div>
