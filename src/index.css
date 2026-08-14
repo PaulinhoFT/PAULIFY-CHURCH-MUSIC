@@ -103,3 +103,24 @@ button:disabled {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+  .app-container { display: flex; flex-direction: column; height: 100dvh; }
+  .main-content { padding: 16px; padding-bottom: 160px; grid-area: auto; flex: 1; }
+  .main-header { flex-direction: column; gap: 16px; }
+  .search-input { width: 100%; }
+  .sidebar { grid-area: auto; position: fixed; bottom: 0; left: 0; width: 100%; height: 60px; padding: 0; flex-direction: row; align-items: center; justify-content: center; z-index: 1000; border-top: 1px solid var(--divider-color); }
+  .sidebar-logo, .sidebar-divider, .sidebar-filters { display: none; }
+  .sidebar-nav { width: 100%; }
+  .sidebar-nav ul { display: flex; justify-content: space-around; padding: 0; margin: 0; height: 100%; }
+  .sidebar-nav li { flex-direction: column; gap: 4px; padding: 8px; font-size: 0.7rem; justify-content: center; }
+  .player-container-compact { bottom: 70px; width: 95%; padding: 0 16px; }
+  .player-right { display: none; }
+  .player-left { min-width: 0; flex: 1; margin-right: 8px; }
+  .player-center { width: auto; }
+  .player-progress-container { display: none; }
+  .player-controls { margin-bottom: 0; }
+  .song-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; }
+  .hero-title { font-size: 2rem; }
+}
