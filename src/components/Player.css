@@ -186,9 +186,9 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(20, 20, 30, 0.35); /* Much more transparent */
-  backdrop-filter: blur(32px); /* Increased blur slightly for better contrast */
-  -webkit-backdrop-filter: blur(32px);
+  background-color: rgba(15, 15, 25, 0.75); /* Darker overlay */
+  backdrop-filter: blur(48px); /* Much more blurry */
+  -webkit-backdrop-filter: blur(48px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -208,6 +208,7 @@
   left: 32px;
   color: var(--text-secondary);
   transition: color 0.2s;
+  z-index: 2001;
 }
 
 .minimize-btn:hover {
@@ -217,23 +218,32 @@
 .expanded-content {
   width: 90%;
   max-width: 500px;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  overflow-y: auto; /* Allow scrolling if screen is too short */
+  padding: 40px 0;
+}
+
+.expanded-content::-webkit-scrollbar {
+  display: none;
 }
 
 .expanded-cover {
   width: 100%;
+  max-width: min(100%, 40vh); /* Prevent the image from taking up the entire vertical space */
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 12px;
-  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
-  margin-bottom: 48px;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.6);
+  margin-bottom: 32px;
 }
 
 .expanded-info {
   width: 100%;
-  text-align: left;
+  text-align: center; /* Centered for better aesthetics in expanded mode */
   margin-bottom: 24px;
 }
 
