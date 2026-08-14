@@ -4,6 +4,7 @@
   padding: 24px 12px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .sidebar-logo {
