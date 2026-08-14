@@ -185,7 +185,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh; /* use dvh for mobile browser chrome */
   background-color: rgba(5, 5, 10, 0.90); /* Much darker overlay */
   backdrop-filter: blur(48px);
   -webkit-backdrop-filter: blur(48px);
@@ -193,7 +193,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  z-index: 2000;
+  z-index: 3000; /* Ensure this is higher than sidebar's 2000 */
   animation: fadeIn 0.3s ease-out forwards;
 }
 
