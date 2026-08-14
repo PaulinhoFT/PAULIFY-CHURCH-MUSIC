@@ -278,5 +278,47 @@
         "artist": "Juninho Cassimiro",
         "audioUrl": "/musica/Teus planos - Juninho Cassimiro.mp4",
         "coverUrl": "/Capa da musica/Teus planos - Juninho Cassimiro.webp"
+    },
+    {
+        "id": 56,
+        "title": "Eu te levantarei",
+        "artist": "Frei Gilson",
+        "audioUrl": "/musica/Eu te levantarei - Frei Gilson.mp4",
+        "coverUrl": "/Capa da musica/Eu te levantarei - Frei Gilson.webp"
+    },
+    {
+        "id": 57,
+        "title": "Colo de Mãe",
+        "artist": "Frei Gilson",
+        "audioUrl": "/musica/Colo de Mãe - Frei Gilson.mp4",
+        "coverUrl": "/Capa da musica/Colo de Mãe - Frei Gilson.webp"
+    },
+    {
+        "id": 58,
+        "title": "Sem medo eu vou",
+        "artist": "Frei Gilson",
+        "audioUrl": "/musica/Sem medo eu vou - Frei Gilson.mp4",
+        "coverUrl": "/Capa da musica/Sem medo eu vou - Frei Gilson.webp"
+    },
+    {
+        "id": 59,
+        "title": "Minha familia é uma benção",
+        "artist": "Frei Gilson",
+        "audioUrl": "/musica/Minha familia é uma benção - Frei Gilson.mp4",
+        "coverUrl": "/Capa da musica/Minha familia é uma benção - Frei Gilson.webp"
+    },
+    {
+        "id": 60,
+        "title": "Eu seguirei",
+        "artist": "Frei Gilson",
+        "audioUrl": "/musica/Eu seguirei - Frei Gilson.mp4",
+        "coverUrl": "/Capa da musica/Eu seguirei - Frei Gilson.webp"
+    },
+    {
+        "id": 61,
+        "title": "De ti preciso",
+        "artist": "Frei Gilson",
+        "audioUrl": "/musica/De ti preciso - Frei Gilson.mp4",
+        "coverUrl": "/Capa da musica/De ti preciso - Frei Gilson.webp"
     }
 ]
