@@ -285,6 +285,8 @@
 @media (max-width: 768px) {
   .player-container-compact {
     bottom: 80px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
     width: 90% !important;
     height: 64px !important;
     padding: 0 16px !important;
