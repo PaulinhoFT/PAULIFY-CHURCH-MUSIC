@@ -94,6 +94,9 @@
   overflow-y: auto;
   padding-left: 12px;
   margin-top: 8px;
+  flex: 1;
+  min-height: 0;
+  padding-bottom: 24px; /* extra breathing room at the bottom */
 }
 
 .sidebar-artist-list::-webkit-scrollbar {
