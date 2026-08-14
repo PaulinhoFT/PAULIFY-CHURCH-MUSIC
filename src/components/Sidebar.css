@@ -1,0 +1,131 @@
+.sidebar {
+  grid-area: sidebar;
+  background-color: var(--sidebar-bg);
+  padding: 24px 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-logo {
+  padding: 0 12px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.logo-text {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.sidebar-nav ul {
+  list-style: none;
+}
+
+.sidebar-nav li {
+  padding: 12px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sidebar-nav li:hover {
+  color: var(--text-primary);
+}
+
+.sidebar-nav li.active {
+  color: var(--text-primary);
+}
+
+.icon {
+  font-size: 1.25rem;
+}
+
+.sidebar-divider {
+  height: 1px;
+  background-color: var(--divider-color);
+  margin: 16px 12px;
+}
+
+.sidebar-filters {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sidebar-filters-header {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-secondary);
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.2s;
+  user-select: none;
+}
+
+.sidebar-filters-header:hover {
+  color: var(--text-primary);
+}
+
+.sidebar-filters-header .icon {
+  font-size: 0.8rem;
+}
+
+.sidebar-artist-list {
+  list-style: none;
+  overflow-y: auto;
+  padding-left: 12px;
+  margin-top: 8px;
+}
+
+.sidebar-artist-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-artist-list::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  border: none;
+}
+
+.sidebar-artist-list li {
+  padding: 8px 12px;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 2px;
+  transition: all 0.2s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sidebar-artist-list li:hover {
+  color: var(--text-primary);
+  background-color: var(--bg-highlight);
+}
+
+.sidebar-artist-list li.active {
+  color: var(--text-primary);
+  background-color: var(--bg-elevated);
+  font-weight: 600;
+}
