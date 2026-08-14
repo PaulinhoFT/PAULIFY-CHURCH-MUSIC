@@ -194,5 +194,19 @@
         "artist": "Frei Gilson",
         "audioUrl": "/musica/Por que choras - Frei Gilson.mp4",
         "coverUrl": "/Capa da musica/Por que choras - Frei Gilson.webp"
+    },
+    {
+        "id": 44,
+        "title": "Queima de Novo",
+        "artist": "Colo de Deus",
+        "audioUrl": "/musica/Queima de Novo - Colo de Deus.mp4",
+        "coverUrl": "/Capa da musica/Queima de Novo - Colo de Deus.webp"
+    },
+    {
+        "id": 45,
+        "title": "Cheiro de Rosas",
+        "artist": "Colo de Deus",
+        "audioUrl": "/musica/Cheiro de Rosas - Colo de Deus.mp4",
+        "coverUrl": "/Capa da musica/Cheiro de Rosas - Colo de Deus.webp"
     }
 ]
