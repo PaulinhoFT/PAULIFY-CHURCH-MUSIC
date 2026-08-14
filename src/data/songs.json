@@ -264,5 +264,19 @@
         "artist": "Fraternidade São João Paulo II",
         "audioUrl": "/musica/Terra Seca - Fraternidade Sao Joao Paulo II.mp3",
         "coverUrl": "/Capa da musica/Terra Seca - Fraternidade Sao Joao Paulo II.webp"
+    },
+    {
+        "id": 54,
+        "title": "Ele vem",
+        "artist": "Colo de Deus",
+        "audioUrl": "/musica/Ele vem - Colo de Deus.mp4",
+        "coverUrl": "/Capa da musica/Ele vem - Colo de Deus.webp"
+    },
+    {
+        "id": 55,
+        "title": "Teus planos",
+        "artist": "Juninho Cassimiro",
+        "audioUrl": "/musica/Teus planos - Juninho Cassimiro.mp4",
+        "coverUrl": "/Capa da musica/Teus planos - Juninho Cassimiro.webp"
     }
 ]
