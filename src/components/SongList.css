@@ -88,3 +88,32 @@
 .song-artist {
   font-size: 0.875rem;
 }
+
+@media (max-width: 768px) {
+  .song-grid {
+    grid-template-columns: repeat(2, 1fr) !important; /* Force 2 columns on mobile */
+    gap: 12px !important;
+  }
+  
+  .song-card {
+    padding: 12px !important;
+  }
+  
+  .song-cover-container {
+    margin-bottom: 12px !important;
+  }
+  
+  .song-title {
+    font-size: 0.9rem !important;
+  }
+  
+  .song-artist {
+    font-size: 0.75rem !important;
+  }
+
+  .play-button-overlay {
+    width: 36px !important;
+    height: 36px !important;
+    font-size: 1rem !important;
+  }
+}
