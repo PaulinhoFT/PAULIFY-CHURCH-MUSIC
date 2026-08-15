@@ -1,109 +1,75 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { PlayerProvider, usePlayer } from './context/PlayerContext';
 import Sidebar from './components/Sidebar';
 import Player from './components/Player';
-import SongList from './components/SongList';
-import Home from './components/Home';
-import songsData from './data/songs.json';
+import LayoutHeader from './components/LayoutHeader';
+import Toast from './components/Toast';
+import CommandPalette from './components/CommandPalette';
+import ContextMenu from './components/ContextMenu';
+import Home from './pages/Home';
+import Playlist from './pages/Playlist';
+import Artist from './pages/Artist';
+import Favorites from './pages/Favorites';
 import './App.css';
 
-function App() {
-  const [songs, setSongs] = useState([]);
-  const [currentSong, setCurrentSong] = useState(null);
-  
-  const [searchQuery, setSearchQuery] = useState("");
-  const [selectedArtist, setSelectedArtist] = useState("Todos");
-  const [currentView, setCurrentView] = useState("home"); // 'home' ou 'playlist'
+const Shell = () => {
+  const location = useLocation();
+  const {
+    currentSong, toggleFavorite, sidebarCollapsed,
+    commandOpen, setCommandOpen, globalTogglePlay,
+  } = usePlayer();
 
   useEffect(() => {
-    setSongs(songsData);
-  }, []);
-
-  // Compute unique artists, sorted alphabetically
-  const artists = ["Todos", ...Array.from(new Set(songs.map(s => s.artist))).sort()];
-
-  // Filter and sort songs
-  const filteredSongs = songs.filter(song => {
-    const matchesSearch = song.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                          song.artist.toLowerCase().includes(searchQuery.toLowerCase());
-    const matchesArtist = selectedArtist === "Todos" || song.artist === selectedArtist;
-    return matchesSearch && matchesArtist;
-  }).sort((a, b) => a.title.localeCompare(b.title));
-
-  const handlePlaySong = (song) => {
-    setCurrentSong(song);
-  };
-
-  const playNext = () => {
-    if (!currentSong || filteredSongs.length === 0) return;
-    const currentIndex = filteredSongs.findIndex(s => s.id === currentSong.id);
-    if (currentIndex !== -1) {
-      const nextIndex = (currentIndex + 1) % filteredSongs.length;
-      setCurrentSong(filteredSongs[nextIndex]);
-    }
-  };
-
-  const playPrevious = () => {
-    if (!currentSong || filteredSongs.length === 0) return;
-    const currentIndex = filteredSongs.findIndex(s => s.id === currentSong.id);
-    if (currentIndex !== -1) {
-      const prevIndex = (currentIndex - 1 + filteredSongs.length) % filteredSongs.length;
-      setCurrentSong(filteredSongs[prevIndex]);
-    }
-  };
+    const handler = (e) => {
+      if (e.key === 'k' && (e.ctrlKey || e.metaKey)) {
+        e.preventDefault();
+        setCommandOpen(!commandOpen);
+        return;
+      }
+      const target = e.target;
+      const isTyping = target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable);
+      if (isTyping) return;
+      if (e.code === 'Space') {
+        e.preventDefault();
+        globalTogglePlay();
+      } else if (e.key === 'f' || e.key === 'F') {
+        if (currentSong) toggleFavorite(currentSong);
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, [commandOpen, setCommandOpen, globalTogglePlay, currentSong, toggleFavorite]);
 
   return (
-    <div className="app-container">
-      <Sidebar 
-        artists={artists}
-        selectedArtist={selectedArtist}
-        onSelectArtist={setSelectedArtist}
-        currentView={currentView}
-        onViewChange={setCurrentView}
-      />
-      <main className="main-content" style={{ overflowY: currentView === 'home' ? 'hidden' : 'auto' }}>
-        <header className="main-header">
-          <div style={{ minWidth: 0 }}>
-            <h1 style={{ margin: 0, marginBottom: '4px', whiteSpace: 'nowrap', fontSize: 'clamp(1rem, 4vw, 2rem)', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-              {currentView === 'home' ? 'Bem vindo ao Paulify - Church Music !' : 'Sua Playlist'}
-            </h1>
-            <p className="text-subdued" style={{ margin: 0 }}>
-              {currentView === 'playlist' ? `${filteredSongs.length} músicas disponíveis.` : 'Os melhores louvores para abençoar o seu dia.'}
-            </p>
-          </div>
-          <div className="search-container">
-            <input 
-              type="text" 
-              placeholder="Buscar música ou cantor..." 
-              value={searchQuery}
-              onChange={(e) => {
-                setSearchQuery(e.target.value);
-                if (currentView !== 'playlist') setCurrentView('playlist');
-              }}
-              className="search-input"
-            />
-          </div>
-        </header>
-        
-        {currentView === 'home' ? (
-          <Home 
-            songs={songs} 
-            onPlay={handlePlaySong} 
-            artists={artists} 
-            onSelectArtist={setSelectedArtist}
-            onViewChange={setCurrentView}
-          />
-        ) : (
-          <SongList songs={filteredSongs} onPlay={handlePlaySong} />
-        )}
+    <div className={`app-container ${sidebarCollapsed ? 'sidebar-collapsed' : ''}`}>
+      <Sidebar />
+      <main className="main-content">
+        <LayoutHeader />
+        <div key={location.pathname} className="view-transition">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/biblioteca" element={<Playlist />} />
+            <Route path="/artista/:name" element={<Artist />} />
+            <Route path="/favoritas" element={<Favorites />} />
+            <Route path="*" element={<Playlist />} />
+          </Routes>
+        </div>
       </main>
-      <Player 
-        currentSong={currentSong} 
-        onNext={playNext} 
-        onPrev={playPrevious}
-        currentView={currentView}
-      />
+      <Player />
+      <CommandPalette />
+      <ContextMenu />
+      <Toast />
     </div>
   );
-}
+};
+
+const App = () => (
+  <BrowserRouter>
+    <PlayerProvider>
+      <Shell />
+    </PlayerProvider>
+  </BrowserRouter>
+);
 
 export default App;

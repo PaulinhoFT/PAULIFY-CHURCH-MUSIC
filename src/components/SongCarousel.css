@@ -1,0 +1,39 @@
+.home-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.carousel {
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  overflow-x: auto;
+  padding-top: 12px;
+  padding-bottom: 16px;
+  margin-right: -24px;
+  padding-right: 24px;
+  scroll-snap-type: x mandatory;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-item {
+  flex: 0 0 160px;
+  width: 160px;
+  min-width: 0;
+  scroll-snap-align: start;
+}
+
+.carousel-item .song-card {
+  height: 100%;
+}

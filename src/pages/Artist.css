@@ -1,0 +1,69 @@
+.artist-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.9rem;
+  align-self: flex-start;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.back-btn:hover {
+  color: var(--text-primary);
+  background-color: var(--bg-highlight);
+}
+
+.artist-header {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 32px;
+  border-radius: 16px;
+  background: linear-gradient(to bottom, var(--bg-highlight) 0%, var(--bg-base) 75%);
+  flex-wrap: wrap;
+}
+
+.artist-header-img {
+  width: clamp(120px, 18vh, 180px);
+  height: clamp(120px, 18vh, 180px);
+  border-radius: 50%;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+  flex-shrink: 0;
+}
+
+.artist-header-img .cover-fallback {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.artist-header-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 0;
+}
+
+.artist-header-name {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+@media (max-width: 768px) {
+  .artist-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 16px;
+  }
+}
