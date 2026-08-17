@@ -4,16 +4,29 @@ const { execSync } = require('child_process');
 const songsPath = './src/data/songs.json';
 let songs = JSON.parse(fs.readFileSync(songsPath, 'utf8'));
 
-// Pegar artistas únicos
-const artists = [...new Set(songs.map(s => s.artist))];
-console.log(`Buscando hits massivos para ${artists.length} artistas...`);
+// Os novos 12 artistas da Fase 2
+const artists = [
+  "Padre Fábio de Melo",
+  "Thiago Brado",
+  "Padre Marcelo Rossi",
+  "Adriana Arydes",
+  "Irmã Kelly Patrícia",
+  "Padre Reginaldo Manzotti",
+  "Eliana Ribeiro",
+  "Rosa de Saron",
+  "Missionário Shalom",
+  "Anjos de Resgate",
+  "Ministério Adoração e Vida",
+  "Ministério Amor e Adoração"
+];
+
+console.log(`Buscando hits massivos para ${artists.length} artistas da Fase 2...`);
 
 let newSongsCount = 0;
 
 artists.forEach((artist, index) => {
   console.log(`\n[${index + 1}/${artists.length}] Buscando Top 30 hits de: ${artist}`);
   try {
-    // Usamos ytsearch30 para pegar bastante volume, focando em "música oficial" para evitar pregações/vlogs
     const query = `ytsearch30:${artist} música oficial`;
     const output = execSync(`yt-dlp "${query}" --print "%(title)s|%(id)s"`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'ignore'] });
     
@@ -24,7 +37,7 @@ artists.forEach((artist, index) => {
       title = title.trim();
       videoId = videoId.trim();
 
-      // Checar se já temos essa música (mesmo ID ou mesmo título exato pelo artista)
+      // Checar se já temos essa música
       const alreadyExists = songs.some(s => s.youtubeId === videoId || (s.title.toLowerCase() === title.toLowerCase() && s.artist === artist));
       
       if (!alreadyExists && videoId.length === 11) {
@@ -52,4 +65,4 @@ artists.forEach((artist, index) => {
   }
 });
 
-console.log(`\n🎉 Expansão concluída! ${newSongsCount} novos HITS foram adicionados ao catálogo!`);
+console.log(`\n🎉 Fase 2 concluída! ${newSongsCount} novos HITS adicionados ao catálogo!`);
