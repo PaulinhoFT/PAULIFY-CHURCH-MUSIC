@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { PlayerProvider, usePlayer } from './context/PlayerContext';
 import Sidebar from './components/Sidebar';
 import Player from './components/Player';
+import { ErrorBoundary } from './components/ErrorBoundary';
 import LayoutHeader from './components/LayoutHeader';
 import Toast from './components/Toast';
 import CommandPalette from './components/CommandPalette';
@@ -56,7 +57,9 @@ const Shell = () => {
           </Routes>
         </div>
       </main>
-      <Player />
+      <ErrorBoundary>
+        <Player />
+      </ErrorBoundary>
       <CommandPalette />
       <ContextMenu />
       <Toast />
