@@ -383,5 +383,663 @@
         "youtubeId": "GWdBE8i5_CQ",
         "coverUrl": "https://img.youtube.com/vi/GWdBE8i5_CQ/hqdefault.jpg",
         "id": 73
+    },
+    {
+        "id": 74,
+        "title": "Show Fraternidade S�o Jo�o Paulo II e convidados (02/03/2024)",
+        "artist": "Fraternidade São João Paulo II",
+        "youtubeId": "0KeV6k3ucis",
+        "coverUrl": "https://img.youtube.com/vi/0KeV6k3ucis/hqdefault.jpg"
+    },
+    {
+        "id": 75,
+        "title": "C�ntico dos C�nticos // Fraternidade S�o Jo�o Paulo II // (Clipe oficial)",
+        "artist": "Fraternidade São João Paulo II",
+        "youtubeId": "svsiovBtE7s",
+        "coverUrl": "https://img.youtube.com/vi/svsiovBtE7s/hqdefault.jpg"
+    },
+    {
+        "id": 76,
+        "title": "Pr�ncipe da Paz - Flavio Vitor Jr & Fraternidade S�o Jo�o Paulo II (Ao Vivo Em S�o Paulo)",
+        "artist": "Fraternidade São João Paulo II",
+        "youtubeId": "7xqk1k4PVmQ",
+        "coverUrl": "https://img.youtube.com/vi/7xqk1k4PVmQ/hqdefault.jpg"
+    },
+    {
+        "id": 77,
+        "title": "Festival Halleluya 2026 - Show Fraternidade S�o Jo�o Paulo II (25/07/2026)",
+        "artist": "Fraternidade São João Paulo II",
+        "youtubeId": "Uzw-GSGsu6Y",
+        "coverUrl": "https://img.youtube.com/vi/Uzw-GSGsu6Y/hqdefault.jpg"
+    },
+    {
+        "id": 78,
+        "title": "Algo est� por vir I Fraternidade S�o Jo�o Paulo II (Clipe Oficial)",
+        "artist": "Fraternidade São João Paulo II",
+        "youtubeId": "IGUdTI4OOuI",
+        "coverUrl": "https://img.youtube.com/vi/IGUdTI4OOuI/hqdefault.jpg"
+    },
+    {
+        "id": 79,
+        "title": "Entre eu e voc� // Fraternidade S�o Jo�o Paulo II / (Clipe oficial)",
+        "artist": "Fraternidade São João Paulo II",
+        "youtubeId": "8WtFDB_mfCY",
+        "coverUrl": "https://img.youtube.com/vi/8WtFDB_mfCY/hqdefault.jpg"
+    },
+    {
+        "id": 80,
+        "title": "Confian�a I Fraternidade S�o Jo�o Paulo II (Clipe Oficial)",
+        "artist": "Fraternidade São João Paulo II",
+        "youtubeId": "-XVhNlVNQoM",
+        "coverUrl": "https://img.youtube.com/vi/-XVhNlVNQoM/hqdefault.jpg"
+    },
+    {
+        "id": 81,
+        "title": "Ela Est� Aqui (De Ave Maria em Ave Maria) - Fl�vio Vitor Jr. e Pe. Marcos Rogerio (Video Oficial)",
+        "artist": "Flavio Vitor Jr.",
+        "youtubeId": "DgAiEhNTF9I",
+        "coverUrl": "https://img.youtube.com/vi/DgAiEhNTF9I/hqdefault.jpg"
+    },
+    {
+        "id": 82,
+        "title": "Santo Ros�rio (De Ave Maria em Ave Maria) - Flavio Vitor Jr, Larissa Garbiati",
+        "artist": "Flavio Vitor Jr.",
+        "youtubeId": "0zMCUY5XPbE",
+        "coverUrl": "https://img.youtube.com/vi/0zMCUY5XPbE/hqdefault.jpg"
+    },
+    {
+        "id": 83,
+        "title": "Deus da B�blia - Flavio Vitor Jr & Bruna Prates (Ao Vivo Em S�o Paulo)",
+        "artist": "Flavio Vitor Jr.",
+        "youtubeId": "c4KeUQKYE_o",
+        "coverUrl": "https://img.youtube.com/vi/c4KeUQKYE_o/hqdefault.jpg"
+    },
+    {
+        "id": 84,
+        "title": "Maior Que os Meus Medos - Flavio Vitor Jr. (Ao Vivo Em S�o Paulo)",
+        "artist": "Flavio Vitor Jr.",
+        "youtubeId": "ZddZ35xwgpI",
+        "coverUrl": "https://img.youtube.com/vi/ZddZ35xwgpI/hqdefault.jpg"
+    },
+    {
+        "id": 85,
+        "title": "+ Maria + Jesus - Flavio Vitor Jr. (A Gl�ria da Segunda Casa - Ao Vivo)",
+        "artist": "Flavio Vitor Jr.",
+        "youtubeId": "9LO1J5j4ukU",
+        "coverUrl": "https://img.youtube.com/vi/9LO1J5j4ukU/hqdefault.jpg"
+    },
+    {
+        "id": 86,
+        "title": "O Fogo N�o Se Apagou - Flavio Vitor Jr. (Ao Vivo Em S�o Paulo)",
+        "artist": "Flavio Vitor Jr.",
+        "youtubeId": "XoK9pmoNnqE",
+        "coverUrl": "https://img.youtube.com/vi/XoK9pmoNnqE/hqdefault.jpg"
+    },
+    {
+        "id": 87,
+        "title": "Eu Amo Quando Voc� Vem  - Flavio Vitor Jr. (A Gl�ria da Segunda Casa - Ao Vivo)",
+        "artist": "Flavio Vitor Jr.",
+        "youtubeId": "vk2KpNPmKiA",
+        "coverUrl": "https://img.youtube.com/vi/vk2KpNPmKiA/hqdefault.jpg"
+    },
+    {
+        "id": 88,
+        "title": "Recompensa - Flavio Vitor Jr. (A Gl�ria da Segunda Casa - Ao Vivo)",
+        "artist": "Flavio Vitor Jr.",
+        "youtubeId": "43qf0Cktork",
+        "coverUrl": "https://img.youtube.com/vi/43qf0Cktork/hqdefault.jpg"
+    },
+    {
+        "id": 89,
+        "title": "Acaso N�o Sabeis - Flavio Vitor Jr (Ao Vivo em S�o Paulo)",
+        "artist": "Flavio Vitor Jr.",
+        "youtubeId": "SXDs_7R0Ki4",
+        "coverUrl": "https://img.youtube.com/vi/SXDs_7R0Ki4/hqdefault.jpg"
+    },
+    {
+        "id": 90,
+        "title": "Queima de Novo - Flavio Vitor Jr (Ao Vivo em S�o Paulo",
+        "artist": "Flavio Vitor Jr.",
+        "youtubeId": "2fPehIKyVN8",
+        "coverUrl": "https://img.youtube.com/vi/2fPehIKyVN8/hqdefault.jpg"
+    },
+    {
+        "id": 91,
+        "title": "Romanos 5 - Flavio Vitor Jr. (Ao Vivo Em S�o Paulo)",
+        "artist": "Flavio Vitor Jr.",
+        "youtubeId": "UMZ5pE__mks",
+        "coverUrl": "https://img.youtube.com/vi/UMZ5pE__mks/hqdefault.jpg"
+    },
+    {
+        "id": 92,
+        "title": "A minha historia � Sua feat. Flavio Vitor Jr // A Festa Continua 10 Anos",
+        "artist": "Flavio Vitor Jr.",
+        "youtubeId": "gSquEwtjQuc",
+        "coverUrl": "https://img.youtube.com/vi/gSquEwtjQuc/hqdefault.jpg"
+    },
+    {
+        "id": 93,
+        "title": "Rei da Gloria - GBA Worship feat Flavio Vitor Jr. (Video Oficial)",
+        "artist": "Flavio Vitor Jr.",
+        "youtubeId": "A5ku3kaIM_o",
+        "coverUrl": "https://img.youtube.com/vi/A5ku3kaIM_o/hqdefault.jpg"
+    },
+    {
+        "id": 94,
+        "title": "Gl�ria e Poder  - Flavio Vitor Jr. (A Gl�ria da Segunda Casa - Ao Vivo)",
+        "artist": "Flavio Vitor Jr.",
+        "youtubeId": "vplvudx20sM",
+        "coverUrl": "https://img.youtube.com/vi/vplvudx20sM/hqdefault.jpg"
+    },
+    {
+        "id": 95,
+        "title": "Juninho Cassimiro - O Conv�vio dos Eleitos (Clipe oficial ao vivo)",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "NChn5ve5bQY",
+        "coverUrl": "https://img.youtube.com/vi/NChn5ve5bQY/hqdefault.jpg"
+    },
+    {
+        "id": 96,
+        "title": "Te Buscar - Juninho Cassimiro",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "WS21-maPZZE",
+        "coverUrl": "https://img.youtube.com/vi/WS21-maPZZE/hqdefault.jpg"
+    },
+    {
+        "id": 97,
+        "title": "Juninho Cassimiro - �lbum Te amar - Cd Completo",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "gPl_Aut9HOo",
+        "coverUrl": "https://img.youtube.com/vi/gPl_Aut9HOo/hqdefault.jpg"
+    },
+    {
+        "id": 98,
+        "title": "JUNINHO CASSIMIRO - TEUS PLANOS (DVD AO VIVO)",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "Udc3chiBnN4",
+        "coverUrl": "https://img.youtube.com/vi/Udc3chiBnN4/hqdefault.jpg"
+    },
+    {
+        "id": 99,
+        "title": "Juninho Cassimiro e Frei Gilson - O Conv�vio dos Eleitos [Clipe Oficial]",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "c7-vRU_Hpik",
+        "coverUrl": "https://img.youtube.com/vi/c7-vRU_Hpik/hqdefault.jpg"
+    },
+    {
+        "id": 100,
+        "title": "FICA SENHOR COMIGO- Juninho Cassimiro e Maria Clara Falc�o",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "yRYIVCefbag",
+        "coverUrl": "https://img.youtube.com/vi/yRYIVCefbag/hqdefault.jpg"
+    },
+    {
+        "id": 101,
+        "title": "Juninho Cassimiro e Frei Gilson - O Po�o [Clipe Oficial]",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "hc6Q9nitx94",
+        "coverUrl": "https://img.youtube.com/vi/hc6Q9nitx94/hqdefault.jpg"
+    },
+    {
+        "id": 102,
+        "title": "Belo Dom",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "hUGKI0i4Ps8",
+        "coverUrl": "https://img.youtube.com/vi/hUGKI0i4Ps8/hqdefault.jpg"
+    },
+    {
+        "id": 103,
+        "title": "JUNINHO CASSIMIRO E @FreiGilsonSomdoMonteOFICIAL  - DETERMINADA DECIS�O [DVD AO VIVO]",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "Nu_tYmA1NSM",
+        "coverUrl": "https://img.youtube.com/vi/Nu_tYmA1NSM/hqdefault.jpg"
+    },
+    {
+        "id": 104,
+        "title": "Santa Cruz - Juninho Cassimiro",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "AAUYMCRCxJw",
+        "coverUrl": "https://img.youtube.com/vi/AAUYMCRCxJw/hqdefault.jpg"
+    },
+    {
+        "id": 105,
+        "title": "D�-me Tua gra�a - Juninho Cassimiro & Keciane Lima",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "pY_ng98iMk8",
+        "coverUrl": "https://img.youtube.com/vi/pY_ng98iMk8/hqdefault.jpg"
+    },
+    {
+        "id": 106,
+        "title": "O Que Me Rouba de Ti - Juninho Cassimiro",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "0m8x8fiXASg",
+        "coverUrl": "https://img.youtube.com/vi/0m8x8fiXASg/hqdefault.jpg"
+    },
+    {
+        "id": 107,
+        "title": "JUNINHO CASSIMIRO E FREI GILSON - A NOSSA F� - ( DVD GRA�A AO VIVO)",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "UsN3XIE1uZY",
+        "coverUrl": "https://img.youtube.com/vi/UsN3XIE1uZY/hqdefault.jpg"
+    },
+    {
+        "id": 108,
+        "title": "Juninho Cassimiro e Banda Arkanjos - A Felicidade",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "ED61T-MIc_M",
+        "coverUrl": "https://img.youtube.com/vi/ED61T-MIc_M/hqdefault.jpg"
+    },
+    {
+        "id": 109,
+        "title": "Olhando Tua Paix�o",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "meqmG53KQsc",
+        "coverUrl": "https://img.youtube.com/vi/meqmG53KQsc/hqdefault.jpg"
+    },
+    {
+        "id": 110,
+        "title": "A Nossa F�",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "EjmGAax8Vf8",
+        "coverUrl": "https://img.youtube.com/vi/EjmGAax8Vf8/hqdefault.jpg"
+    },
+    {
+        "id": 111,
+        "title": "Quando Te Encontrar",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "1xVrIokNvcc",
+        "coverUrl": "https://img.youtube.com/vi/1xVrIokNvcc/hqdefault.jpg"
+    },
+    {
+        "id": 112,
+        "title": "Olha pra Mim",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "jtn0NsGRPtA",
+        "coverUrl": "https://img.youtube.com/vi/jtn0NsGRPtA/hqdefault.jpg"
+    },
+    {
+        "id": 113,
+        "title": "Juninho Cassimiro e  Vinicius Oliveira - O Beijo M�stico [CLIPE OFICIAL]",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "_H-uA9zCBUg",
+        "coverUrl": "https://img.youtube.com/vi/_H-uA9zCBUg/hqdefault.jpg"
+    },
+    {
+        "id": 114,
+        "title": "Determinada Decis�o  / Juninho Cassimiro e Frei Gilson",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "JoEZ7SEhWC8",
+        "coverUrl": "https://img.youtube.com/vi/JoEZ7SEhWC8/hqdefault.jpg"
+    },
+    {
+        "id": 115,
+        "title": "QUERO O CORPO E O SANGUE - Feat - Maria Clara Falc�o",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "yixblzvOOFs",
+        "coverUrl": "https://img.youtube.com/vi/yixblzvOOFs/hqdefault.jpg"
+    },
+    {
+        "id": 116,
+        "title": "N�o deixe de sonhar - Feat Juninho Cassimiro",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "apmC-M4cnGI",
+        "coverUrl": "https://img.youtube.com/vi/apmC-M4cnGI/hqdefault.jpg"
+    },
+    {
+        "id": 117,
+        "title": "Juninho Cassimiro e Banda Arkanjos - O Inventor do Amor [ Clipe Oficial]",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "WLwlaoIR7sA",
+        "coverUrl": "https://img.youtube.com/vi/WLwlaoIR7sA/hqdefault.jpg"
+    },
+    {
+        "id": 118,
+        "title": "Sabe Quem Eu Sou / Vou Te Adorar / Rei dos Reis",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "xeZIOy1MxtM",
+        "coverUrl": "https://img.youtube.com/vi/xeZIOy1MxtM/hqdefault.jpg"
+    },
+    {
+        "id": 119,
+        "title": "Teus Planos - Juninho Cassimiro",
+        "artist": "Juninho Cassimiro",
+        "youtubeId": "SGknCGaI-bQ",
+        "coverUrl": "https://img.youtube.com/vi/SGknCGaI-bQ/hqdefault.jpg"
+    },
+    {
+        "id": 120,
+        "title": "Fhop Music - Lista das Melhores M�sicas 2024 - Encontre a paz para voc� #fhopmusic #gospel2024",
+        "artist": "Fhop Music",
+        "youtubeId": "TiC_7bFa6u0",
+        "coverUrl": "https://img.youtube.com/vi/TiC_7bFa6u0/hqdefault.jpg"
+    },
+    {
+        "id": 121,
+        "title": "Cristo + Tudo E Teu (Ao Vivo) - fhop music & Paulo e Rebeca & Hamilton Rabelo",
+        "artist": "Fhop Music",
+        "youtubeId": "ENs1kwEUnWY",
+        "coverUrl": "https://img.youtube.com/vi/ENs1kwEUnWY/hqdefault.jpg"
+    },
+    {
+        "id": 122,
+        "title": "Nos �ltimos Dias (Ao Vivo) I Fhop Music",
+        "artist": "Fhop Music",
+        "youtubeId": "4itSDFQxdYo",
+        "coverUrl": "https://img.youtube.com/vi/4itSDFQxdYo/hqdefault.jpg"
+    },
+    {
+        "id": 123,
+        "title": "Ton Carfi - Batalhas Secretas (Clipe oficial)",
+        "artist": "Ton Carfi",
+        "youtubeId": "89Lvsjy0S7E",
+        "coverUrl": "https://img.youtube.com/vi/89Lvsjy0S7E/hqdefault.jpg"
+    },
+    {
+        "id": 124,
+        "title": "Um Novo Dia - Ton Carfi (Clipe Oficial)",
+        "artist": "Ton Carfi",
+        "youtubeId": "Zph2VkxtYlM",
+        "coverUrl": "https://img.youtube.com/vi/Zph2VkxtYlM/hqdefault.jpg"
+    },
+    {
+        "id": 125,
+        "title": "Ton Carfi - O Le�o (DVD Ton Carfi 20 Anos)",
+        "artist": "Ton Carfi",
+        "youtubeId": "CVjqGHbUhq0",
+        "coverUrl": "https://img.youtube.com/vi/CVjqGHbUhq0/hqdefault.jpg"
+    },
+    {
+        "id": 126,
+        "title": "Ton Carfi - Assuma O Controle (Clipe Oficial)",
+        "artist": "Ton Carfi",
+        "youtubeId": "89G_olzwZvU",
+        "coverUrl": "https://img.youtube.com/vi/89G_olzwZvU/hqdefault.jpg"
+    },
+    {
+        "id": 127,
+        "title": "Ton Carfi - Creio em Ti",
+        "artist": "Ton Carfi",
+        "youtubeId": "Uz5oMeRSItM",
+        "coverUrl": "https://img.youtube.com/vi/Uz5oMeRSItM/hqdefault.jpg"
+    },
+    {
+        "id": 128,
+        "title": "C�ntico de Mois�s - Ton Carfi e Cia Nissi ( Clipe Oficial)",
+        "artist": "Ton Carfi",
+        "youtubeId": "LJS4v0P5s8M",
+        "coverUrl": "https://img.youtube.com/vi/LJS4v0P5s8M/hqdefault.jpg"
+    },
+    {
+        "id": 129,
+        "title": "Amar � uma escolha - Ton Carfi (Clipe Oficial)",
+        "artist": "Ton Carfi",
+        "youtubeId": "S0iZgRaSJFw",
+        "coverUrl": "https://img.youtube.com/vi/S0iZgRaSJFw/hqdefault.jpg"
+    },
+    {
+        "id": 130,
+        "title": "Ton Carfi, Paloma Possi, Brunno Ramos - � Voc� (Clipe Oficial)",
+        "artist": "Ton Carfi",
+        "youtubeId": "dkiLdA2kZiw",
+        "coverUrl": "https://img.youtube.com/vi/dkiLdA2kZiw/hqdefault.jpg"
+    },
+    {
+        "id": 131,
+        "title": "Ton Carfi - Hist�ria de Davi [Clipe Oficial]",
+        "artist": "Ton Carfi",
+        "youtubeId": "XdTQpCufDGI",
+        "coverUrl": "https://img.youtube.com/vi/XdTQpCufDGI/hqdefault.jpg"
+    },
+    {
+        "id": 132,
+        "title": "TON CARFI - AMOR DO MEU HER�I - CLIPE OFICIAL",
+        "artist": "Ton Carfi",
+        "youtubeId": "X4Zpm16D4G4",
+        "coverUrl": "https://img.youtube.com/vi/X4Zpm16D4G4/hqdefault.jpg"
+    },
+    {
+        "id": 133,
+        "title": "Ton Carfi - Eu S� Quero Ser Teu [Clipe Oficial]",
+        "artist": "Ton Carfi",
+        "youtubeId": "wlVuqGKI_lU",
+        "coverUrl": "https://img.youtube.com/vi/wlVuqGKI_lU/hqdefault.jpg"
+    },
+    {
+        "id": 134,
+        "title": "Ton Carfi - X-Man [Clipe Oficial]",
+        "artist": "Ton Carfi",
+        "youtubeId": "t9Pgmln5THY",
+        "coverUrl": "https://img.youtube.com/vi/t9Pgmln5THY/hqdefault.jpg"
+    },
+    {
+        "id": 135,
+        "title": "Ton Carfi - Cuida de Mim (Clipe Oficial)",
+        "artist": "Ton Carfi",
+        "youtubeId": "e6UTBjTnV4U",
+        "coverUrl": "https://img.youtube.com/vi/e6UTBjTnV4U/hqdefault.jpg"
+    },
+    {
+        "id": 136,
+        "title": "Ton Carfi - H� Um Criador (Clipe Oficial)",
+        "artist": "Ton Carfi",
+        "youtubeId": "e4wdjsQQF54",
+        "coverUrl": "https://img.youtube.com/vi/e4wdjsQQF54/hqdefault.jpg"
+    },
+    {
+        "id": 137,
+        "title": "Ton Carfi - Cristo Filho (A Espera de Um Milagre) [V�deo Oficial]",
+        "artist": "Ton Carfi",
+        "youtubeId": "say_nS-Tft0",
+        "coverUrl": "https://img.youtube.com/vi/say_nS-Tft0/hqdefault.jpg"
+    },
+    {
+        "id": 138,
+        "title": "Ton Carfi - H� Um Lugar Pra Mim (DVD Ton Carfi 20 Anos)",
+        "artist": "Ton Carfi",
+        "youtubeId": "TZUxnNnfVaw",
+        "coverUrl": "https://img.youtube.com/vi/TZUxnNnfVaw/hqdefault.jpg"
+    },
+    {
+        "id": 139,
+        "title": "N�o tem separa��o - Ton Carfi & Amanda Kontopp (Clipe Oficial)",
+        "artist": "Ton Carfi",
+        "youtubeId": "xPbKzTxMqvQ",
+        "coverUrl": "https://img.youtube.com/vi/xPbKzTxMqvQ/hqdefault.jpg"
+    },
+    {
+        "id": 140,
+        "title": "Ton Carfi - S� Teus Olhos Me Veem [Clipe Oficial]",
+        "artist": "Ton Carfi",
+        "youtubeId": "5DWLHg3y24E",
+        "coverUrl": "https://img.youtube.com/vi/5DWLHg3y24E/hqdefault.jpg"
+    },
+    {
+        "id": 141,
+        "title": "Grato Sou (I Thank God) - Ao vivo � DROPS",
+        "artist": "Drops",
+        "youtubeId": "Yo9G3hvl_UI",
+        "coverUrl": "https://img.youtube.com/vi/Yo9G3hvl_UI/hqdefault.jpg"
+    },
+    {
+        "id": 142,
+        "title": "Can��o de Sime�o (Ao Vivo no Rio de Janeiro) � DROPS",
+        "artist": "Drops",
+        "youtubeId": "rVJxohBP59c",
+        "coverUrl": "https://img.youtube.com/vi/rVJxohBP59c/hqdefault.jpg"
+    },
+    {
+        "id": 143,
+        "title": "Pardal (Ao Vivo) � DROPS",
+        "artist": "Drops",
+        "youtubeId": "cJXE4AprLvE",
+        "coverUrl": "https://img.youtube.com/vi/cJXE4AprLvE/hqdefault.jpg"
+    },
+    {
+        "id": 144,
+        "title": "Algo Bem Maior (Clipe Oficial) � DROPS",
+        "artist": "Drops",
+        "youtubeId": "ky1WiHBOb_E",
+        "coverUrl": "https://img.youtube.com/vi/ky1WiHBOb_E/hqdefault.jpg"
+    },
+    {
+        "id": 145,
+        "title": "Eu Provei e Vi (Ao Vivo) � DROPS",
+        "artist": "Drops",
+        "youtubeId": "w-8MGvnXzfs",
+        "coverUrl": "https://img.youtube.com/vi/w-8MGvnXzfs/hqdefault.jpg"
+    },
+    {
+        "id": 146,
+        "title": "Eu Provei e Vi (Nova Vers�o) � DROPS",
+        "artist": "Drops",
+        "youtubeId": "BwstQszO4QM",
+        "coverUrl": "https://img.youtube.com/vi/BwstQszO4QM/hqdefault.jpg"
+    },
+    {
+        "id": 147,
+        "title": "Pardal + Espont�neo (Ao Vivo) � DROPS, N�vea Soares",
+        "artist": "Drops",
+        "youtubeId": "SyUKh4z1Xn4",
+        "coverUrl": "https://img.youtube.com/vi/SyUKh4z1Xn4/hqdefault.jpg"
+    },
+    {
+        "id": 148,
+        "title": "E Ele (Letra) - Drops INA",
+        "artist": "Drops",
+        "youtubeId": "VNn7OzNyXRw",
+        "coverUrl": "https://img.youtube.com/vi/VNn7OzNyXRw/hqdefault.jpg"
+    },
+    {
+        "id": 149,
+        "title": "Maravilhosa Gra�a (This is Amazing Grace) � DROPS",
+        "artist": "Drops",
+        "youtubeId": "nv-T2_JPKZA",
+        "coverUrl": "https://img.youtube.com/vi/nv-T2_JPKZA/hqdefault.jpg"
+    },
+    {
+        "id": 150,
+        "title": "Se Eu Tenho Uma Palavra (Clipe Oficial) � DROPS feat. Mateus Brito",
+        "artist": "Drops",
+        "youtubeId": "90tWRxTsntg",
+        "coverUrl": "https://img.youtube.com/vi/90tWRxTsntg/hqdefault.jpg"
+    },
+    {
+        "id": 151,
+        "title": "Can��o de Sime�o (Ao Vivo) � DROPS",
+        "artist": "Drops",
+        "youtubeId": "mtWTOGNnatc",
+        "coverUrl": "https://img.youtube.com/vi/mtWTOGNnatc/hqdefault.jpg"
+    },
+    {
+        "id": 152,
+        "title": "Senhor da Igreja (Clipe Oficial) � DROPS",
+        "artist": "Drops",
+        "youtubeId": "cBpLvXi3BsM",
+        "coverUrl": "https://img.youtube.com/vi/cBpLvXi3BsM/hqdefault.jpg"
+    },
+    {
+        "id": 153,
+        "title": "Quem � Aquele (Ao Vivo) � DROPS Feat. Andr� Aquino",
+        "artist": "Drops",
+        "youtubeId": "z35GeTTCMz0",
+        "coverUrl": "https://img.youtube.com/vi/z35GeTTCMz0/hqdefault.jpg"
+    },
+    {
+        "id": 154,
+        "title": "� Ele - DROPS (Letra)",
+        "artist": "Drops",
+        "youtubeId": "vdyWwMsHo7c",
+        "coverUrl": "https://img.youtube.com/vi/vdyWwMsHo7c/hqdefault.jpg"
+    },
+    {
+        "id": 155,
+        "title": "TUA ALEGRIA - DROPS - LETRA COMPLETA OFICIAL (BEREIA LETRAS)",
+        "artist": "Drops",
+        "youtubeId": "M_D9hxOzOyg",
+        "coverUrl": "https://img.youtube.com/vi/M_D9hxOzOyg/hqdefault.jpg"
+    },
+    {
+        "id": 157,
+        "title": "� Ele (Playback Original) - Drops INA",
+        "artist": "Drops",
+        "youtubeId": "e2T5ZeFAfjk",
+        "coverUrl": "https://img.youtube.com/vi/e2T5ZeFAfjk/hqdefault.jpg"
+    },
+    {
+        "id": 163,
+        "title": "Morada As Melhores [Os Principais Lan�amentos e Participa��es Especiais]",
+        "artist": "Morada",
+        "youtubeId": "GXdZqbh6RbE",
+        "coverUrl": "https://img.youtube.com/vi/GXdZqbh6RbE/hqdefault.jpg"
+    },
+    {
+        "id": 164,
+        "title": "Puro e Simples - Morada #LiveChurch",
+        "artist": "Morada",
+        "youtubeId": "E8F3iuIMbA0",
+        "coverUrl": "https://img.youtube.com/vi/E8F3iuIMbA0/hqdefault.jpg"
+    },
+    {
+        "id": 165,
+        "title": "Para Onde Eu Irei? - Morada - Live Church",
+        "artist": "Morada",
+        "youtubeId": "0RjojWKqsFY",
+        "coverUrl": "https://img.youtube.com/vi/0RjojWKqsFY/hqdefault.jpg"
+    },
+    {
+        "id": 167,
+        "title": "Morada As Melhores [Os Principais Lan�amentos e Participa��es Especiais] Vol. 2",
+        "artist": "Morada",
+        "youtubeId": "08LUDmI6CQc",
+        "coverUrl": "https://img.youtube.com/vi/08LUDmI6CQc/hqdefault.jpg"
+    },
+    {
+        "id": 168,
+        "title": "1 Hora de Adora��o - MORADA",
+        "artist": "Morada",
+        "youtubeId": "As Melhores",
+        "coverUrl": "https://img.youtube.com/vi/As Melhores/hqdefault.jpg"
+    },
+    {
+        "id": 169,
+        "title": "MORADA - Para que entre o Rei (Lyric V�deo)",
+        "artist": "Morada",
+        "youtubeId": "_DUSt0KGMsI",
+        "coverUrl": "https://img.youtube.com/vi/_DUSt0KGMsI/hqdefault.jpg"
+    },
+    {
+        "id": 170,
+        "title": "Pra Onde Eu Irei? -  Morada",
+        "artist": "Morada",
+        "youtubeId": "Va8srvjwgAA",
+        "coverUrl": "https://img.youtube.com/vi/Va8srvjwgAA/hqdefault.jpg"
+    },
+    {
+        "id": 171,
+        "title": "R�dio Morada - 24 Horas Online (Ao Vivo) 2026-08-17 16:26",
+        "artist": "Morada",
+        "youtubeId": "N-1lD8ZR5vU",
+        "coverUrl": "https://img.youtube.com/vi/N-1lD8ZR5vU/hqdefault.jpg"
+    },
+    {
+        "id": 172,
+        "title": "DVD completo Frei Gilson ao vivo 360�",
+        "artist": "Frei Gilson",
+        "youtubeId": "9pSaYlPl65o",
+        "coverUrl": "https://img.youtube.com/vi/9pSaYlPl65o/hqdefault.jpg"
+    },
+    {
+        "id": 173,
+        "title": "Santo Ros�rio",
+        "artist": "Frei Gilson",
+        "youtubeId": "Sexta-feira",
+        "coverUrl": "https://img.youtube.com/vi/Sexta-feira/hqdefault.jpg"
+    },
+    {
+        "id": 174,
+        "title": "EU SEGUIREI (Clipe Oficial)",
+        "artist": "Frei Gilson",
+        "youtubeId": "Frei Gilson",
+        "coverUrl": "https://img.youtube.com/vi/Frei Gilson/hqdefault.jpg"
     }
 ]
