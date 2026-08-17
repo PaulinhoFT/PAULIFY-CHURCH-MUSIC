@@ -341,5 +341,47 @@
         "artist": "Juninho Cassimiro",
         "id": 67,
         "youtubeId": "mCXuq6bdwHA"
+    },
+    {
+        "title": "Tu és amor",
+        "artist": "Fraternidade São João Paulo II",
+        "youtubeId": "2AKDi6koRGk",
+        "coverUrl": "https://img.youtube.com/vi/2AKDi6koRGk/hqdefault.jpg",
+        "id": 68
+    },
+    {
+        "title": "Se deixa encontrar",
+        "artist": "Fraternidade São João Paulo II",
+        "youtubeId": "vN85lx_gayk",
+        "coverUrl": "https://img.youtube.com/vi/vN85lx_gayk/hqdefault.jpg",
+        "id": 69
+    },
+    {
+        "title": "Nova Forma",
+        "artist": "Fraternidade São João Paulo II",
+        "youtubeId": "Fcfppc7No5s",
+        "coverUrl": "https://img.youtube.com/vi/Fcfppc7No5s/hqdefault.jpg",
+        "id": 70
+    },
+    {
+        "title": "Na Presença do Senhor",
+        "artist": "Fraternidade São João Paulo II",
+        "youtubeId": "GPriCnR93Gk",
+        "coverUrl": "https://img.youtube.com/vi/GPriCnR93Gk/hqdefault.jpg",
+        "id": 71
+    },
+    {
+        "title": "O Rei",
+        "artist": "Fraternidade São João Paulo II",
+        "youtubeId": "kGns-cfGK60",
+        "coverUrl": "https://img.youtube.com/vi/kGns-cfGK60/hqdefault.jpg",
+        "id": 72
+    },
+    {
+        "title": "Banquete",
+        "artist": "Fraternidade São João Paulo II",
+        "youtubeId": "GWdBE8i5_CQ",
+        "coverUrl": "https://img.youtube.com/vi/GWdBE8i5_CQ/hqdefault.jpg",
+        "id": 73
     }
 ]
